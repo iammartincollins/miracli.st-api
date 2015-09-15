@@ -43,7 +43,7 @@ router.route('/lists')
 
 router.route('/lists/:id')
     .get(function (req, res) {
-        MList.findOne({'_id': req.params.id}, function (err, list) {
+        MList.findOne(req.params.id, function (err, list) {
             if (err) throw err;
             res.send(list);
         });
