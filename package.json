@@ -1,0 +1,19 @@
+{
+  "name": "Miraclist-API",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/main.js",
+  "author": "Martin Collins",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "~4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "mongoose": "^4.1.6",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
