@@ -2,7 +2,7 @@
   "name": "Miraclist-API",
   "version": "0.0.0",
   "description": "",
-  "main": "app/main.js",
+  "main": "server.js",
   "author": "Martin Collins",
   "dependencies": {
     "body-parser": "^1.13.3",
